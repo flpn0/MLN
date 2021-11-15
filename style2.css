@@ -1,0 +1,35 @@
+.topbar {
+    display: flex;
+    justify-content: left;
+    background-color: grey;
+}
+
+
+/* Add a black background color to the top navigation bar */
+.searchbar {
+    padding-top: 5rem;
+    overflow: hidden;
+    display: flex;
+    padding-bottom: 3rem;
+  }
+
+  /* Style the search box inside the navigation bar */
+  .searchbar input[type=text] {
+
+    padding: 12px;
+    width: 40rem;
+    height: 1rem;
+    border: solid, 4px;
+    margin: auto;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 10px;
+
+  }
+  
+  img {
+      width: 5rem;
+      height: 5rem;
+      padding-right: 5rem;
+  }
+  
