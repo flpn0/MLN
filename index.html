@@ -5,28 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MLN</title>
-    <style>
-      body {
-        padding: 25px;
-        background-color: white;
-        color: black;
-        font-size: 25px;
-      }
-      .dark-mode {
-        background-color: black;
-        color: white;
-      }
-    </style>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1>MajorLindholmenNews</h1>
-    <h2>Test för nm</h2>
-  
-    <p>Man död efter skjutningen i Felix Hammrströms trakter</p>
-  
-    <img src="MLN.png" alt="Loggan">
-    <div>
-      <button onclick="darkMode()">Cockmode</button>
+<nav>
+
+
+    <div class="forre">
+        <img src="Namnlös (2).png" alt="Loggan">
+    </div>
+    
+    <div class="start"> 
+        <a href="index.html"><b>Start</b></a>
+    </div>
+
+    <div class="start">
+        <a href="index.html"><b>Debatt</b></a>
+    </div>
+
+    <div class="start">
+        <a href="index.html"><b>Klimattfrågor</b></a>
+    </div>
+
+    <div class="start">
+        <a href="index.html"><b>Sport</b></a>
+
+    </div>
+
+    <div class="knapp">
+      <button onclick="darkMode()">darkmode</button>
     </div>
     <script>
       function darkMode() {
@@ -34,5 +44,8 @@
         element.classList.toggle("dark-mode");
       }
     </script>
+
+</nav>  
+   
   </body>
 </html>
