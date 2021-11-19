@@ -1,7 +1,7 @@
 .topbar {
     display: flex;
     justify-content: left;
-    background-color: grey;
+    background-color: #830065;
 }
 
 
@@ -11,6 +11,7 @@
     overflow: hidden;
     display: flex;
     padding-bottom: 3rem;
+    font-family: 'Roboto', sans-serif;
   }
 
   /* Style the search box inside the navigation bar */
@@ -33,3 +34,20 @@
       padding-right: 5rem;
   }
   
+
+  main {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .kort {
+    font-family: 'Roboto', sans-serif;
+    width: 20rem;
+    height: 3rem;
+    padding: 1rem;
+    background-color: #830065;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    color: white;    
+  }
