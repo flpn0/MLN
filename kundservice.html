@@ -14,9 +14,39 @@
 </head>
 <body>
 
-    <div class = "topbar">
-        <h1>Kundservice</h1>
+    <nav>
+        <div class="forre">
+            <img src="Namnlös (2).png" alt="Loggan">
         </div>
+        
+        <div class="start"> 
+            <a href="index.html"><b>Start</b></a>
+        </div>
+    
+        <div class="start">
+            <a href="index.html"><b>Debatt</b></a>
+        </div>
+    
+        <div class="start">
+            <a href="index.html"><b>Klimattfrågor</b></a>
+        </div>
+    
+        <div class="start">
+            <a href="index.html"><b>Sport</b></a>
+    
+        </div>
+    
+        <div class="knapp">
+          <button onclick="darkMode()">darkmode</button>
+        </div>
+        <script>
+          function darkMode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+          }
+        </script>
+    
+    </nav>  
 
     <div class="searchbar">
         <input type="text" placeholder="Sök..">
