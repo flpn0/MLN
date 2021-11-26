@@ -1,3 +1,72 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+h1 {
+    font-size: 50px;
+    
+}
+
+.James {
+    color: red;
+    font-weight: bold;
+}
+
+.Artikeltext {
+    font-size: larger;
+    font-weight: bold;
+}
+.ig {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2rem;
+}
+
+nav {
+    border: block;
+    padding: 1rem;
+    border: 1px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.forre img {
+    max-width: 6rem;
+}
+
+.start {
+
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px black solid;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.virus {
+    display: flex;
+  justify-content: flex-end;
+
+   
+}
+
+.CC {
+    display: flex;
+    font-size: small;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.RAM {
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+    
+
+}
