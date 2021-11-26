@@ -55,6 +55,19 @@ nav {
     border-bottom-right-radius: 0.5rem;
 }
 
-.knapp {
+.justnu {
+    margin: auto;
 
+}
+
+.justnu2 {
+    margin: auto;
+    padding: 1rem;
+    
+    max-width: 40rem;
+}
+.justnu2 img {
+max-width: 40rem;
+margin: auto;
+display: block;
 }
