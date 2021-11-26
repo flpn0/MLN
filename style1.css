@@ -35,6 +35,17 @@ body {
     max-width: 6rem;
 }
 
+
+
+.flpn {
+    margin: auto;
+    max-width: 60rem;
+    
+}
+.nåttkonstigtnamn {
+    display: flex;
+}
+
 nav {
     border: block;
     padding: 1rem;
@@ -56,18 +67,39 @@ nav {
 }
 
 .justnu {
-    margin: auto;
-
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    border: lightgray 1px solid;
+    max-width: 42.13rem;
+    
 }
 
 .justnu2 {
-    margin: auto;
     padding: 1rem;
-    
-    max-width: 40rem;
+    border: lightgray 1px solid;
 }
 .justnu2 img {
-max-width: 40rem;
+max-width: 30rem;
 margin: auto;
 display: block;
 }
+
+.reklam img{
+    max-width: 75rem;
+    display: block;
+    display: flex;
+    margin: auto;
+}
+
+.åtsidan {
+    padding: 1rem;
+    border: solid 1px lightgray;
+    max-width: 10rem;
+}
+
+.åtsidan2 {
+    padding: 1rem;
+    border-bottom: solid 1px lightgray;
+}
+ 
