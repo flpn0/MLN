@@ -1,42 +1,74 @@
 
 /* Add a black background color to the top navigation bar */
 .searchbar {
-    padding-top: 5rem;
+    padding-top: 7rem;
     overflow: hidden;
     display: flex;
     padding-bottom: 3rem;
     font-family: 'Roboto', sans-serif;
+    padding-bottom: 7rem;
+    background-image: url("LTG.jpg");
+    background-position: center;
   }
+
 
   /* Style the search box inside the navigation bar */
   .searchbar input[type=text] {
-
     padding: 12px;
     width: 40rem;
     height: 1rem;
-    border: solid, 4px;
+    border: 1px solid #830065;
     margin: auto;
     align-items: center;
     font-size: 14px;
     border-radius: 10px;
-
+    font-family: 'Roboto', sans-serif;
   }
 
   main {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    list-style: none;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
   }
 
   .kort {
-    font-family: 'Roboto', sans-serif;
-    width: 20rem;
-    height: 3rem;
-    padding: 1rem;
-    background-color: #830065;
+    border: 1px solid #830065;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #830065;
     display: flex;
-    align-items: center;
-    border-radius: 10px;
-    color: white;    
+    justify-content: center;
+    margin: 0 0 30px;
+    width: 25rem;
+    height: 4rem;
+    margin-bottom: 3rem;
+    
+  }
+
+  .kort:hover {
+    background-color: purple;
+    color:  white;
+  }
+
+  .kortstor {
+    border: 1px solid #830065;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #830065;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 30px;
+    width: 40rem;
+    height: 4rem;
+  }
+
+  .kortstor:hover {
+    background-color: purple;
+    color:  white;
   }
 
   button {
@@ -66,7 +98,7 @@ body {
   
 
   .dark-mode {
-    background-color: grey;
+    background-color: black;
     color: white;
 }
 
@@ -85,8 +117,7 @@ nav {
     align-items: center;
 }
 
-.start {
-
+.start {  
     padding: 0.5rem;
     font-size: 1rem;
     border: 1px black solid;
@@ -95,3 +126,8 @@ nav {
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
 }
+
+hr {
+  padding-bottom: 10rem;
+}
+
